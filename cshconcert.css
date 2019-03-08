@@ -1,0 +1,41 @@
+
+.ltr_scroll {
+	overflow: auto;
+	width: 400px;
+	height: 500px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 5%;
+}
+
+.rtl_scroll {
+	overflow: auto;
+	direction: rtl;
+	width: 400px;
+	height: 520px;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-top: 5%;*/
+}
+
+#concert1 {
+	height: 400px;
+	width: auto;
+}
+
+#concert2 {
+
+	height: 500px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
